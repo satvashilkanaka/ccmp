@@ -1,0 +1,54 @@
+groups:
+  - name: CCMP Alerts
+    rules:
+      # P0/P1: PagerDuty Critical
+      - alert: HighHttpRequestErrors
+        expr: ccmp_http_request_errors_total > 10
+        for: 5m
+        labels:
+          severity: critical
+          channel: pagerduty
+        annotations:
+          summary: "High HTTP 5xx error rate detected on {{ $labels.instance }}"
+          description: "API is returning more than 10 errors in a 5-minute window."
+
+      - alert: ZeroActiveAgents
+        expr: ccmp_active_agents_gauge == 0
+        for: 2m
+        labels:
+          severity: critical
+          channel: pagerduty
+        annotations:
+          summary: "No active agents in system"
+          description: "Major incident: Zero agents are currently logged into the platform."
+
+      # P2/P3: Slack Warnings
+      - alert: HighSlaBreachRate
+        expr: rate(ccmp_sla_breaches_total[5m]) * 60 > 5
+        for: 2m
+        labels:
+          severity: warning
+          channel: slack
+        annotations:
+          summary: "High SLA breach rate detected"
+          description: "More than 5 cases per minute are breaching SLA."
+
+      - alert: PostgresConnPoolSaturation
+        expr: (ccmp_postgres_active_connections / ccmp_postgres_max_connections) * 100 > 80
+        for: 5m
+        labels:
+          severity: warning
+          channel: slack
+        annotations:
+          summary: "Postgres connection pool > 80%"
+          description: "DB connection pool is reaching saturation limits."
+
+      - alert: LowDiskSpace
+        expr: (node_filesystem_avail_bytes / node_filesystem_size_bytes) * 100 < 20
+        for: 10m
+        labels:
+          severity: warning
+          channel: slack
+        annotations:
+          summary: "Disk usage > 80%"
+          description: "Storage space on {{ $labels.device }} is low."

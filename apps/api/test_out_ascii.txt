@@ -1,0 +1,423 @@
+node.exe : [33mThe CJS build of Vite's Node API is 
+deprecated. See https://vite.dev/guide/troubleshooting.h
+tml#vite-cjs-node-api-deprecated for more details.[39m
+At line:1 char:1
++ & "C:\nvm4w\nodejs/node.exe" 
+"C:\nvm4w\nodejs/node_modules/npm/bin/np ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([33mThe C 
+   JS bu...e details.[39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mC:/z/wp/projects/contact_support/ccmp/apps/api[39m
+
+ [32m???[39m src/__tests__/case.service.test.ts [2m ([22m[2m24 tests[22m[2m)[22m[90m 30[2mms[22m[39m
+ [32m???[39m src/__tests__/qa.service.test.ts [2m ([22m[2m14 tests[22m[2m)[22m[90m 32[2mms[22m[39m
+ [32m???[39m src/__tests__/recordings.service.test.ts [2m ([22m[2m9 tests[22m[2m)[22m[90m 19[2mms[22m[39m
+{"level":40,"time":1772969525158,"pid":14492,"hostname":"LAPTOP-535N8U96","msg":"AUDIT_EXPORT_PRIVATE_KEY not set. Export will not be cryptographically signed."}
+ [32m???[39m src/__tests__/audit.service.test.ts [2m ([22m[2m5 tests[22m[2m)[22m[90m 36[2mms[22m[39m
+{"level":30,"time":1772969526043,"pid":14492,"hostname":"LAPTOP-535N8U96","caseId":"case-1","score":4,"msg":"CSAT response recorded"}
+[90mstderr[2m | Queue.emit (C:\z\wp\projects\contact_s
+upport\ccmp\node_modules\.pnpm\bullmq@5.70.4\node_module
+s\bullmq\src\classes\queue-base.ts:137:17)[22m[39m
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp
+\node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_mod
+ules\[4mredis-parser[24m\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\
+node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_modu
+les\[4mredis-parser[24m\lib\parser.js:302:14) {
+  command: { name: [32m'info'[39m, args: [] }
+}
+
+[90mstderr[2m | Queue.emit (C:\z\wp\projects\contact_s
+upport\ccmp\node_modules\.pnpm\bullmq@5.70.4\node_module
+s\bullmq\src\classes\queue-base.ts:137:17)[22m[39m
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp
+\node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_mod
+ules\[4mredis-parser[24m\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\
+node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_modu
+les\[4mredis-parser[24m\lib\parser.js:302:14) {
+  command: { name: [32m'info'[39m, args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp
+\node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_mod
+ules\[4mredis-parser[24m\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\
+node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_modu
+les\[4mredis-parser[24m\lib\parser.js:302:14) {
+  command: { name: [32m'info'[39m, args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp
+\node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_mod
+ules\[4mredis-parser[24m\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\
+node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_modu
+les\[4mredis-parser[24m\lib\parser.js:302:14) {
+  command: { name: [32m'info'[39m, args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp
+\node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_mod
+ules\[4mredis-parser[24m\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\
+node_modules\[4m.pnpm[24m\redis-parser@3.0.0\node_modu
+les\[4mredis-parser[24m\lib\parser.js:302:14) {
+  command: { name: [32m'info'[39m, args: [] }
+}
+
+{"level":30,"time":1772969527731,"pid":14492,"hostname":"LAPTOP-535N8U96","req":{"id":1,"method":"POST","url":"/api/v1/cases","query":{},"params":{},"headers":{"host":"127.0.0.1:57128","accept-encoding":"gzip, deflate","content-type":"application/json","content-length":"18","connection":"close"},"remoteAddress":"::ffff:127.0.0.1","remotePort":57129},"res":{"statusCode":null},"responseTime":19,"msg":"request completed"}
+{"level":30,"time":1772969527748,"pid":14492,"hostname":"LAPTOP-535N8U96","req":{"id":2,"method":"POST","url":"/api/v1/cases","query":{},"params":{},"headers":{"host":"127.0.0.1:57130","accept-encoding":"gzip, deflate","content-type":"application/json","content-length":"61","connection":"close"},"remoteAddress":"::ffff:127.0.0.1","remotePort":57131},"res":{"statusCode":null},"responseTime":4,"msg":"request completed"}
+{"level":30,"time":1772969527761,"pid":14492,"hostname":"LAPTOP-535N8U96","req":{"id":3,"method":"POST","url":"/api/v1/cases","query":{},"params":{},"headers":{"host":"127.0.0.1:57132","accept-encoding":"gzip, deflate","content-type":"application/json","content-length":"19","connection":"close"},"remoteAddress":"::ffff:127.0.0.1","remotePort":57133},"res":{"statusCode":null},"responseTime":4,"msg":"request completed"}
+{"level":30,"time":1772969527771,"pid":14492,"hostname":"LAPTOP-535N8U96","req":{"id":4,"method":"GET","url":"/api/v1/cases?limit=5","query":{"limit":"5"},"params":{},"headers":{"host":"127.0.0.1:57134","accept-encoding":"gzip, deflate","connection":"close"},"remoteAddress":"::ffff:127.0.0.1","remotePort":57135},"res":{"statusCode":null},"responseTime":2,"msg":"request completed"}
+{"level":30,"time":1772969527782,"pid":14492,"hostname":"LAPTOP-535N8U96","req":{"id":5,"method":"GET","url":"/api/v1/cases?limit=200&cursor=clhq3x4zq000008l412345678","query":{"limit":"200","cursor":"clhq3x4zq000008l412345678"},"params":{},"headers":{"host":"127.0.0.1:57136","accept-encoding":"gzip, deflate","connection":"close"},"remoteAddress":"::ffff:127.0.0.1","remotePort":57137},"res":{"statusCode":null},"responseTime":3,"msg":"request completed"}
+{"level":50,"time":1772969527809,"pid":14492,"hostname":"LAPTOP-535N8U96","err":{"statusCode":409,"isOperational":true,"name":"ConflictError"},"msg":"Unhandled error"}
+{"level":30,"time":1772969527810,"pid":14492,"hostname":"LAPTOP-535N8U96","req":{"id":6,"method":"PATCH","url":"/api/v1/cases/cuid-1/status","query":{},"params":{},"headers":{"host":"127.0.0.1:57138","accept-encoding":"gzip, deflate","content-type":"application/json","content-length":"36","connection":"close"},"remoteAddress":"::ffff:127.0.0.1","remotePort":57139},"res":{"statusCode":null},"responseTime":4,"msg":"request completed"}
+ [32m???[39m src/__tests__/cases.router.test.ts [2m ([22m[2m6 tests[22m[2m)[22m[90m 115[2mms[22m[39m
+ [33m???[39m src/__tests__/survey.router.test.ts [2m ([22m[2m7 tests[22m [2m|[22m [31m1 failed[39m[2m)[22m[33m 5141[2mms[22m[39m
+[31m   [33m???[31m src/__tests__/survey.router.test.ts[2m > [22mSurvey Router (CSAT)[2m > [22mPOST /survey/respond[2m > [22mshould throw NotFound if underlying case relates to broken token[39m
+[31m     ??? Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".[39m
+ [33m???[39m src/__tests__/kb.router.test.ts [2m ([22m[2m6 tests[22m [2m|[22m [31m3 failed[39m[2m)[22m[33m 5130[2mms[22m[39m
+[31m   [33m???[31m src/__tests__/kb.router.test.ts[2m > [22mKnowledge Base Router[2m > [22mGET /kb/articles/:id[2m > [22mreturns 404 if article not found (P2025 error)[39m
+[31m     ??? Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".[39m
+[31m   [33m???[31m src/__tests__/kb.router.test.ts[2m > [22mKnowledge Base Router[2m > [22mPOST /kb/articles[2m > [22mblocks AGENT role from creating article[39m
+[31m     ??? expected 401 to be 403 // Object.is equality[39m
+[31m   [33m???[31m src/__tests__/kb.router.test.ts[2m > [22mKnowledge Base Router[2m > [22mPOST /kb/articles[2m > [22mallows SUPERVISOR role to create article[39m
+[31m     ??? expected 401 to be 201 // Object.is equality[39m
+
+[31m?????????????????????[1m[7m Failed Tests 4 
+[27m[22m?????????????????????[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/kb.router.test.ts[2m > [22mKnowledge 
+Base Router[2m > [22mGET /kb/articles/:id[2m > 
+[22mreturns 404 if article not found (P2025 error)
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/survey.router.test.ts[2m > [22mSurvey 
+Router (CSAT)[2m > [22mPOST /survey/respond[2m > 
+[22mshould throw NotFound if underlying case relates 
+to broken token
+[31m[1mError[22m: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as 
+the last argument or configure it globally with 
+"testTimeout".[39m
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[1/4]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/kb.router.test.ts[2m > [22mKnowledge 
+Base Router[2m > [22mPOST /kb/articles[2m > 
+[22mblocks AGENT role from creating article
+[31m[1mAssertionError[22m: expected 401 to be 403 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 403[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/kb.router.test.ts:[2m120:26[22m[39m
+    [90m118| [39m    [34mit[39m([32m'blocks AGENT 
+role from creating article'[39m[33m,[39m 
+[35masync[39m () [33m=>[39m {
+    [90m119| [39m      [35mconst[39m res 
+[33m=[39m [35mawait[39m [34mrequest[39m(app)[33m.
+[39m[34mpost[39m([32m'/kb/articles'[39m)[33m.[39m
+[35mset[39m([32m'x-mock-[39m???
+    [90m120| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m403[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m121| [39m    })[33m;[39m
+    [90m122| [39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[2/4]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/kb.router.test.ts[2m > [22mKnowledge 
+Base Router[2m > [22mPOST /kb/articles[2m > 
+[22mallows SUPERVISOR role to create article
+[31m[1mAssertionError[22m: expected 401 to be 201 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 201[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/kb.router.test.ts:[2m127:26[22m[39m
+    [90m125| [39m
+    [90m126| [39m      [35mconst[39m res 
+[33m=[39m [35mawait[39m [34mrequest[39m(app)[33m.
+[39m[34mpost[39m([32m'/kb/articles'[39m)[33m.[39m
+[35mset[39m([32m'x-mock-[39m???
+    [90m127| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m201[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m128| [39m      [34mexpect[39m(prismaWrite[3
+3m.[39mkbArticle[33m.[39mcreate)[33m.[39m[34mtoHav
+eBeenCalled[39m()[33m;[39m
+    [90m129| [39m    })[33m;[39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[3/4]???[22m[39m
+
+[31m??????????????????[1m[7m Unhandled Errors [27m[22m??????????????????[39m
+[31m[1m
+Vitest caught 7 unhandled errors during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.[22m[39m
+
+[31m????????????[1m[7m Unhandled Rejection 
+[27m[22m???????????????[39m
+[31m[1mNotFoundError[22m: Associated case not 
+found[39m
+[36m [2m???[22m 
+src/modules/csat/survey.router.ts:[2m92:11[22m[39m
+    [90m 90| [39m
+    [90m 91| [39m  [35mif[39m 
+([33m![39mcaseRecord) {
+    [90m 92| [39m    [35mthrow[39m [35mnew[39m 
+[33mNotFoundError[39m([32m'Associated case not 
+found'[39m)[33m;[39m
+    [90m   | [39m          [31m^[39m
+    [90m 93| [39m  }
+    [90m 94| [39m
+[90m [2m???[22m processTicksAndRejections 
+node:internal/process/task_queues:[2m103:5[22m[39m
+
+[31m[2m???????????????????????????????????????????????
+???????????????????????????????????????????[22m[39m
+[31m[1mSerialized Error:[22m[39m [90m{ statusCode: 
+404, isOperational: true }[39m
+[31mThis error originated in 
+"[1msrc/__tests__/survey.router.test.ts[22m" test 
+file. It doesn't mean the error was thrown inside the 
+file itself, but while it was running.[39m
+[31mThe latest test that might've caused the error is 
+"[1mshould throw NotFound if underlying case relates 
+to broken token[22m". It might mean one of the 
+following:
+- The error was thrown, while Vitest was running this 
+test.
+- If the error occurred after the test had been 
+completed, this was the last documented test before it 
+was thrown.[39m
+
+[31m????????????[1m[7m Unhandled Rejection 
+[27m[22m???????????????[39m
+[31m[1mNotFoundError[22m: Knowledge Base article 
+not-exist not found[39m
+[36m [2m???[22m 
+src/modules/kb/kb.router.ts:[2m92:13[22m[39m
+    [90m 90| [39m  } [35mcatch[39m (err[33m:[39m 
+any) {
+    [90m 91| [39m    [35mif[39m (err[33m.[39mcode 
+[33m===[39m [32m'P2025'[39m) {
+    [90m 92| [39m      [35mthrow[39m [35mnew[39m 
+[33mNotFoundError[39m([32m`Knowledge Base article 
+[39m[36m${[39mid[36m}[39m[32m not found`[39m???
+    [90m   | [39m            [31m^[39m
+    [90m 93| [39m    }
+    [90m 94| [39m    [35mthrow[39m err[33m;[39m
+[90m [2m???[22m processTicksAndRejections 
+node:internal/process/task_queues:[2m103:5[22m[39m
+
+[31m[2m???????????????????????????????????????????????
+???????????????????????????????????????????[22m[39m
+[31m[1mSerialized Error:[22m[39m [90m{ statusCode: 
+404, isOperational: true }[39m
+[31mThis error originated in 
+"[1msrc/__tests__/kb.router.test.ts[22m" test file. 
+It doesn't mean the error was thrown inside the file 
+itself, but while it was running.[39m
+[31mThe latest test that might've caused the error is 
+"[1mreturns 404 if article not found (P2025 
+error)[22m". It might mean one of the following:
+- The error was thrown, while Vitest was running this 
+test.
+- If the error occurred after the test had been 
+completed, this was the last documented test before it 
+was thrown.[39m
+
+[31m????????????[1m[7m Unhandled Rejection 
+[27m[22m???????????????[39m
+[31m[1mTypeError[22m: Cannot read properties of 
+undefined (reading 'create')[39m
+[36m [2m???[22m logRequestContext 
+src/middleware/auditSelf.ts:[2m95:6[22m[39m
+    [90m 93| [39m  [90m// Best effort non-blocking 
+write[39m
+    [90m 94| [39m  prismaWrite[33m.[39mauditLog
+    [90m 95| [39m    [33m.[39m[34mcreate[39m({
+    [90m   | [39m     [31m^[39m
+    [90m 96| [39m      data[33m:[39m {
+    [90m 97| [39m        actorId[33m:[39m 
+user[33m.[39mid[33m,[39m
+[90m [2m???[22m Immediate.<anonymous> 
+src/middleware/auditSelf.ts:[2m23:9[22m[39m
+[90m [2m???[22m processImmediate 
+node:internal/timers:[2m484:21[22m[39m
+
+[31mThis error originated in 
+"[1msrc/__tests__/cases.router.test.ts[22m" test 
+file. It doesn't mean the error was thrown inside the 
+file itself, but while it was running.[39m
+[31mThe latest test that might've caused the error is 
+"[1mshould create case with valid AGENT token + valid 
+body ??? 201[22m". It might mean one of the following:
+- The error was thrown, while Vitest was running this 
+test.
+- If the error occurred after the test had been 
+completed, this was the last documented test before it 
+was thrown.[39m
+
+[31m????????????[1m[7m Unhandled Rejection 
+[27m[22m???????????????[39m
+[31m[1mTypeError[22m: Cannot read properties of 
+undefined (reading 'create')[39m
+[36m [2m???[22m logRequestContext 
+src/middleware/auditSelf.ts:[2m95:6[22m[39m
+    [90m 93| [39m  [90m// Best effort non-blocking 
+write[39m
+    [90m 94| [39m  prismaWrite[33m.[39mauditLog
+    [90m 95| [39m    [33m.[39m[34mcreate[39m({
+    [90m   | [39m     [31m^[39m
+    [90m 96| [39m      data[33m:[39m {
+    [90m 97| [39m        actorId[33m:[39m 
+user[33m.[39mid[33m,[39m
+[90m [2m???[22m Immediate.<anonymous> 
+src/middleware/auditSelf.ts:[2m23:9[22m[39m
+[90m [2m???[22m processImmediate 
+node:internal/timers:[2m484:21[22m[39m
+
+[31mThis error originated in 
+"[1msrc/__tests__/cases.router.test.ts[22m" test 
+file. It doesn't mean the error was thrown inside the 
+file itself, but while it was running.[39m
+[31mThe latest test that might've caused the error is 
+"[1mshould return 400 with fields.subject when missing 
+subject[22m". It might mean one of the following:
+- The error was thrown, while Vitest was running this 
+test.
+- If the error occurred after the test had been 
+completed, this was the last documented test before it 
+was thrown.[39m
+
+[31m????????????[1m[7m Unhandled Rejection 
+[27m[22m???????????????[39m
+[31m[1mTypeError[22m: Cannot read properties of 
+undefined (reading 'create')[39m
+[36m [2m???[22m logRequestContext 
+src/middleware/auditSelf.ts:[2m95:6[22m[39m
+    [90m 93| [39m  [90m// Best effort non-blocking 
+write[39m
+    [90m 94| [39m  prismaWrite[33m.[39mauditLog
+    [90m 95| [39m    [33m.[39m[34mcreate[39m({
+    [90m   | [39m     [31m^[39m
+    [90m 96| [39m      data[33m:[39m {
+    [90m 97| [39m        actorId[33m:[39m 
+user[33m.[39mid[33m,[39m
+[90m [2m???[22m Immediate.<anonymous> 
+src/middleware/auditSelf.ts:[2m23:9[22m[39m
+[90m [2m???[22m processImmediate 
+node:internal/timers:[2m484:21[22m[39m
+
+[31mThis error originated in 
+"[1msrc/__tests__/cases.router.test.ts[22m" test 
+file. It doesn't mean the error was thrown inside the 
+file itself, but while it was running.[39m
+[31mThe latest test that might've caused the error is 
+"[1mreturns 200 with { items, pagination } capped 
+limit[22m". It might mean one of the following:
+- The error was thrown, while Vitest was running this 
+test.
+- If the error occurred after the test had been 
+completed, this was the last documented test before it 
+was thrown.[39m
+
+[31m????????????[1m[7m Unhandled Rejection 
+[27m[22m???????????????[39m
+[31m[1mTypeError[22m: Cannot read properties of 
+undefined (reading 'create')[39m
+[36m [2m???[22m logRequestContext 
+src/middleware/auditSelf.ts:[2m95:6[22m[39m
+    [90m 93| [39m  [90m// Best effort non-blocking 
+write[39m
+    [90m 94| [39m  prismaWrite[33m.[39mauditLog
+    [90m 95| [39m    [33m.[39m[34mcreate[39m({
+    [90m   | [39m     [31m^[39m
+    [90m 96| [39m      data[33m:[39m {
+    [90m 97| [39m        actorId[33m:[39m 
+user[33m.[39mid[33m,[39m
+[90m [2m???[22m Immediate.<anonymous> 
+src/middleware/auditSelf.ts:[2m23:9[22m[39m
+[90m [2m???[22m processImmediate 
+node:internal/timers:[2m484:21[22m[39m
+
+[31mThis error originated in 
+"[1msrc/__tests__/cases.router.test.ts[22m" test 
+file. It doesn't mean the error was thrown inside the 
+file itself, but while it was running.[39m
+[31mThe latest test that might've caused the error is 
+"[1mreturns next page with cursor, limit=200 is capped 
+at 100 by schema[22m". It might mean one of the 
+following:
+- The error was thrown, while Vitest was running this 
+test.
+- If the error occurred after the test had been 
+completed, this was the last documented test before it 
+was thrown.[39m
+
+[31m????????????[1m[7m Unhandled Rejection 
+[27m[22m???????????????[39m
+[31m[1mTypeError[22m: Cannot read properties of 
+undefined (reading 'create')[39m
+[36m [2m???[22m logRequestContext 
+src/middleware/auditSelf.ts:[2m95:6[22m[39m
+    [90m 93| [39m  [90m// Best effort non-blocking 
+write[39m
+    [90m 94| [39m  prismaWrite[33m.[39mauditLog
+    [90m 95| [39m    [33m.[39m[34mcreate[39m({
+    [90m   | [39m     [31m^[39m
+    [90m 96| [39m      data[33m:[39m {
+    [90m 97| [39m        actorId[33m:[39m 
+user[33m.[39mid[33m,[39m
+[90m [2m???[22m Immediate.<anonymous> 
+src/middleware/auditSelf.ts:[2m23:9[22m[39m
+[90m [2m???[22m processImmediate 
+node:internal/timers:[2m484:21[22m[39m
+
+[31mThis error originated in 
+"[1msrc/__tests__/cases.router.test.ts[22m" test 
+file. It doesn't mean the error was thrown inside the 
+file itself, but while it was running.[39m
+[31mThe latest test that might've caused the error is 
+"[1mreturns 409 when version is stale[22m". It might 
+mean one of the following:
+- The error was thrown, while Vitest was running this 
+test.
+- If the error occurred after the test had been 
+completed, this was the last documented test before it 
+was thrown.[39m
+[31m??????????????????????????????????????????????????????????????????????????????????????????[39m
+
+[2m Test Files [22m [1m[31m2 failed[39m[22m[2m | [22m[1m[32m5 passed[39m[22m[90m (7)[39m
+[2m      Tests [22m [1m[31m4 failed[39m[22m[2m | [22m[1m[32m67 passed[39m[22m[90m (71)[39m
+[2m     Errors [22m [1m[31m7 errors[39m[22m
+[2m   Start at [22m 17:02:02
+[2m   Duration [22m 9.07s[2m (transform 1.18s, setup 0ms, collect 6.60s, tests 10.50s, environment 2ms, prepare 2.67s)[22m
+

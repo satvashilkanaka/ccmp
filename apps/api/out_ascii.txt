@@ -1,0 +1,264 @@
+node.exe : [33mThe CJS build of Vite's Node API is 
+deprecated. See https://vite.dev/guide/troubleshooting.h
+tml#vite-cjs-node-api-deprecated for more details.[39m
+At line:1 char:1
++ & "C:\nvm4w\nodejs/node.exe" 
+"C:\nvm4w\nodejs/node_modules/npm/bin/np ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([33mThe C 
+   JS bu...e details.[39m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+[7m[1m[36m RUN [39m[22m[27m [36mv1.6.1[39m [90mC:/z/wp/projects/contact_support/ccmp/apps/api[39m
+
+ [33m???[39m src/__tests__/reports.router.test.ts [2m ([22m[2m7 tests[22m [2m|[22m [31m7 failed[39m[2m)[22m[90m 92[2mms[22m[39m
+[31m   [33m???[31m src/__tests__/reports.router.test.ts[2m > [22mReports Router[2m > [22mGET /reports/:type[2m > [22mblocks AGENT role[39m
+[31m     ??? expected 401 to be 403 // Object.is equality[39m
+[31m   [33m???[31m src/__tests__/reports.router.test.ts[2m > [22mReports Router[2m > [22mGET /reports/:type[2m > [22mreturns 400 for invalid report type[39m
+[31m     ??? expected 401 to be 400 // Object.is equality[39m
+[31m   [33m???[31m src/__tests__/reports.router.test.ts[2m > [22mReports Router[2m > [22mGET /reports/:type[2m > [22mreturns json data from reportsService for SUPERVISOR[39m
+[31m     ??? expected 401 to be 200 // Object.is equality[39m
+[31m   [33m???[31m src/__tests__/reports.router.test.ts[2m > [22mReports Router[2m > [22mGET /reports/export[2m > [22mblocks AGENT role[39m
+[31m     ??? expected 401 to be 403 // Object.is equality[39m
+[31m   [33m???[31m src/__tests__/reports.router.test.ts[2m > [22mReports Router[2m > [22mGET /reports/export[2m > [22mreturns 400 if format is not csv[39m
+[31m     ??? expected 401 to be 400 // Object.is equality[39m
+[31m   [33m???[31m src/__tests__/reports.router.test.ts[2m > [22mReports Router[2m > [22mGET /reports/export[2m > [22mreturns 400 if type is invalid for export[39m
+[31m     ??? expected 401 to be 400 // Object.is equality[39m
+[31m   [33m???[31m src/__tests__/reports.router.test.ts[2m > [22mReports Router[2m > [22mGET /reports/export[2m > [22mdelegates streaming strictly to reportsService without buffering response headers early[39m
+[31m     ??? expected 401 to be 200 // Object.is equality[39m
+
+[31m?????????????????????[1m[7m Failed Tests 7 
+[27m[22m?????????????????????[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/reports.router.test.ts[2m > [22mReports 
+Router[2m > [22mGET /reports/:type[2m > [22mblocks 
+AGENT role
+[31m[1mAssertionError[22m: expected 401 to be 403 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 403[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/reports.router.test.ts:[2m53:26[22m[39m
+    [90m 51| [39m    [34mit[39m([32m'blocks AGENT 
+role'[39m[33m,[39m [35masync[39m () [33m=>[39m {
+    [90m 52| [39m      [35mconst[39m res 
+[33m=[39m [35mawait[39m [34mrequest[39m(app)[33m.
+[39m[35mget[39m([32m'/reports/agent_performance'[39
+m)???
+    [90m 53| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m403[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m 54| [39m    })[33m;[39m
+    [90m 55| [39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[1/7]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/reports.router.test.ts[2m > [22mReports 
+Router[2m > [22mGET /reports/:type[2m > [22mreturns 
+400 for invalid report type
+[31m[1mAssertionError[22m: expected 401 to be 400 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 400[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/reports.router.test.ts:[2m58:26[22m[39m
+    [90m 56| [39m    [34mit[39m([32m'returns 400 
+for invalid report type'[39m[33m,[39m 
+[35masync[39m () [33m=>[39m {
+    [90m 57| [39m      [35mconst[39m res 
+[33m=[39m [35mawait[39m [34mrequest[39m(app)[33m.
+[39m[35mget[39m([32m'/reports/invalid_type'[39m)[3
+3m.[39m[35mset[39m(???
+    [90m 58| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m400[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m 59| [39m      [34mexpect[39m(res[33m.[39m
+body[33m.[39merror)[33m.[39m[34mtoBe[39m([32m'Inv
+alid report type'[39m)[33m;[39m
+    [90m 60| [39m    })[33m;[39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[2/7]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/reports.router.test.ts[2m > [22mReports 
+Router[2m > [22mGET /reports/:type[2m > [22mreturns 
+json data from reportsService for SUPERVISOR
+[31m[1mAssertionError[22m: expected 401 to be 200 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 200[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/reports.router.test.ts:[2m68:26[22m[39m
+    [90m 66| [39m      [35mconst[39m res 
+[33m=[39m [35mawait[39m [34mrequest[39m(app)[33m.
+[39m[35mget[39m([32m'/reports/agent_performance'[39
+m)???
+    [90m 67| [39m      
+    [90m 68| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m200[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m 69| [39m      [34mexpect[39m(res[33m.[39m
+body)[33m.[39m[34mtoEqual[39m(mockData)[33m;[39m
+    [90m 70| [39m      [34mexpect[39m(reportsService
+[33m.[39mgetReportData)[33m.[39m[34mtoHaveBeenCalle
+dWith[39m([32m'agent[39m???
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[3/7]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/reports.router.test.ts[2m > [22mReports 
+Router[2m > [22mGET /reports/export[2m > [22mblocks 
+AGENT role
+[31m[1mAssertionError[22m: expected 401 to be 403 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 403[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/reports.router.test.ts:[2m77:26[22m[39m
+    [90m 75| [39m    [34mit[39m([32m'blocks AGENT 
+role'[39m[33m,[39m [35masync[39m () [33m=>[39m {
+    [90m 76| [39m      [35mconst[39m res 
+[33m=[39m [35mawait[39m [34mrequest[39m(app)[33m.
+[39m[35mget[39m([32m'/reports/export?type=agent_p[3
+9m???
+    [90m 77| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m403[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m 78| [39m    })[33m;[39m
+    [90m 79| [39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[4/7]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/reports.router.test.ts[2m > [22mReports 
+Router[2m > [22mGET /reports/export[2m > 
+[22mreturns 400 if format is not csv
+[31m[1mAssertionError[22m: expected 401 to be 400 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 400[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/reports.router.test.ts:[2m84:26[22m[39m
+    [90m 82| [39m        [33m.[39m[35mget[39m([32
+m'/reports/export?type=agent_performance&format=json'[3
+9m)
+    [90m 83| [39m        [33m.[39m[35mset[39m([32
+m'x-mock-role'[39m[33m,[39m 
+[32m'ADMIN'[39m)[33m;[39m
+    [90m 84| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m400[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m 85| [39m    })[33m;[39m
+    [90m 86| [39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[5/7]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/reports.router.test.ts[2m > [22mReports 
+Router[2m > [22mGET /reports/export[2m > 
+[22mreturns 400 if type is invalid for export
+[31m[1mAssertionError[22m: expected 401 to be 400 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 400[39m
+[31m+ 401[39m
+
+[36m [2m???[22m 
+src/__tests__/reports.router.test.ts:[2m91:26[22m[39m
+    [90m 89| [39m        [33m.[39m[35mget[39m([32
+m'/reports/export?type=invalid_type&format=csv'[39m)
+    [90m 90| [39m        [33m.[39m[35mset[39m([32
+m'x-mock-role'[39m[33m,[39m 
+[32m'ADMIN'[39m)[33m;[39m
+    [90m 91| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m400[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m 92| [39m    })[33m;[39m
+    [90m 93| [39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[6/7]???[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m 
+src/__tests__/reports.router.test.ts[2m > [22mReports 
+Router[2m > [22mGET /reports/export[2m > 
+[22mdelegates streaming strictly to reportsService 
+without buffering response headers early
+[31m[1mAssertionError[22m: expected 401 to be 200 // 
+Object.is equality[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- 200[39m
+[31m+ 401[39m
+
+[36m [2m???[22m src/__tests__/reports.router.test.ts:
+[2m103:26[22m[39m
+    [90m101| [39m      [35mconst[39m res 
+[33m=[39m [35mawait[39m [34mrequest[39m(app)[33m.
+[39m[35mget[39m([32m'/reports/export?type=agent_p[3
+9m???
+    [90m102| [39m      
+    [90m103| [39m      [34mexpect[39m(res[33m.[39m
+status)[33m.[39m[34mtoBe[39m([34m200[39m)[33m;[3
+9m
+    [90m   | [39m                         [31m^[39m
+    [90m104| [39m      [34mexpect[39m(res[33m.[39m
+header[[32m'content-type'[39m])[33m.[39m[34mtoConta
+in[39m([32m'text/csv'[39m)[33m;[39m
+    [90m105| [39m      [34mexpect[39m(res[33m.[39m
+text)[33m.[39m[34mtoBe[39m([32m'agentName,resolvedC
+ases\nAlice,10'[39m)[33m;[39m
+
+[31m[2m???????????????????????????????????????????????
+?????????????????????????[7/7]???[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m7 failed[39m[22m[90m (7)[39m
+[2m   Start at [22m 17:13:17
+[2m   Duration [22m 2.28s[2m (transform 196ms, setup 1ms, collect 1.10s, tests 92ms, environment 0ms, prepare 358ms)[22m
+

@@ -1,0 +1,25 @@
+{
+  "name": "@ccmp/database",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "db:seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "meilisearch": "^0.55.0",
+    "prisma": "^5.15.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.15.0",
+    "typescript": "^5.4.0"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}

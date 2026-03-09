@@ -1,0 +1,316 @@
+services:
+
+  # ── Traefik Reverse Proxy ─────────────────────────────────────────────────
+  traefik:
+    image: traefik:v3.0
+    container_name: ccmp-traefik
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"   # Traefik dashboard (dev only)
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./config/traefik:/etc/traefik
+    labels:
+      - "traefik.enable=true"
+    networks:
+      - ccmp-network
+
+  # ── API Backend ────────────────────────────────────────────────────────
+  api:
+    image: node:20-alpine
+    container_name: ccmp-api
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: sh -c "corepack enable && pnpm install && pnpm --filter @ccmp/api dev"
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - DATABASE_READ_URL=${DATABASE_READ_URL}
+      - REDIS_URL=redis://redis:6379
+      - API_PORT=4000
+    depends_on:
+      - postgres
+      - redis
+    ports:
+      - "4000:4000"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.api.rule=PathPrefix(`/api`)"
+      - "traefik.http.services.api.loadbalancer.server.port=4000"
+      - "traefik.http.services.api.loadbalancer.sticky.cookie=true"
+      - "traefik.http.services.api.loadbalancer.sticky.cookie.name=ccmp-sticky"
+    networks:
+      - ccmp-network
+
+  # ── Web Frontend ────────────────────────────────────────────────────────
+  web:
+    image: node:20-alpine
+    container_name: ccmp-web
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: sh -c "corepack enable && pnpm install && pnpm --filter @ccmp/web dev"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:4000
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.web.rule=PathPrefix(`/`)"
+      - "traefik.http.services.web.loadbalancer.server.port=3000"
+    networks:
+      - ccmp-network
+
+  # ── PostgreSQL 16 (Primary) ────────────────────────────────────────────────
+  postgres:
+    image: bitnami/postgresql:latest
+    container_name: ccmp-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRESQL_PGA_JOB_UPDATE: 1
+      POSTGRESQL_REPLICATION_MODE: master
+      POSTGRESQL_REPLICATION_USER: repl_user
+      POSTGRESQL_REPLICATION_PASSWORD: repl_password
+      POSTGRES_HOST_AUTH_METHOD: md5
+    volumes:
+      - postgres_data:/bitnami/postgresql
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - ccmp-network
+
+  # ── PostgreSQL 16 (Read Replica) ───────────────────────────────────────────
+  postgres-replica:
+    image: bitnami/postgresql:latest
+    container_name: ccmp-postgres-replica
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRESQL_REPLICATION_MODE: slave
+      POSTGRESQL_REPLICATION_USER: repl_user
+      POSTGRESQL_REPLICATION_PASSWORD: repl_password
+      POSTGRESQL_MASTER_HOST: postgres
+      POSTGRESQL_MASTER_PORT_NUMBER: 5432
+    ports:
+      - "5434:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    networks:
+      - ccmp-network
+
+  # ── PgBouncer (connection pooler) ─────────────────────────────────────────
+  pgbouncer:
+    image: edoburu/pgbouncer:latest
+    container_name: ccmp-pgbouncer
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./config/pgbouncer/pgbouncer.ini:/etc/pgbouncer/pgbouncer.ini:ro
+    environment:
+      DB_USER: ${POSTGRES_USER}
+      DB_PASSWORD: ${POSTGRES_PASSWORD}
+      DB_NAME: ${POSTGRES_DB}
+    ports:
+      - "6432:6432"
+    networks:
+      - ccmp-network
+
+  # ── Redis 7 ───────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: ccmp-redis
+    restart: unless-stopped
+    command: >
+      redis-server
+      --requirepass ${REDIS_PASSWORD}
+      --maxmemory 512mb
+      --maxmemory-policy allkeys-lru
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "$$REDIS_PASSWORD", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - ccmp-network
+
+  # ── Keycloak 24 (IAM / SSO) ───────────────────────────────────────────────
+  keycloak:
+    image: quay.io/keycloak/keycloak:24.0
+    container_name: ccmp-keycloak
+    restart: unless-stopped
+    command: start-dev --import-realm
+    environment:
+      KEYCLOAK_ADMIN: ${KEYCLOAK_ADMIN}
+      KEYCLOAK_ADMIN_PASSWORD: ${KEYCLOAK_ADMIN_PASSWORD}
+      KC_DB: dev-file
+      KC_HTTP_PORT: 8180
+    volumes:
+      - ./config/keycloak:/opt/keycloak/data/import
+    ports:
+      - "8180:8180"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8180/health/ready || exit 1"]
+      interval: 15s
+      timeout: 10s
+      retries: 8
+      start_period: 60s
+    networks:
+      - ccmp-network
+
+  # ── MinIO (object storage — recordings & attachments) ────────────────────
+  minio:
+    image: minio/minio:latest
+    container_name: ccmp-minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:9000/minio/health/live || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    networks:
+      - ccmp-network
+
+  # ── Meilisearch 1.7 (full-text search) ───────────────────────────────────
+  meilisearch:
+    image: getmeili/meilisearch:v1.7
+    container_name: ccmp-meilisearch
+    restart: unless-stopped
+    environment:
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY}
+      MEILI_ENV: development
+    volumes:
+      - meilisearch_data:/meili_data
+    ports:
+      - "7700:7700"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:7700/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    networks:
+      - ccmp-network
+
+  # ── FreeSWITCH (Telephony) ───────────────────────────────────────────────
+  freeswitch:
+    image: signalwire/freeswitch:v1.10
+    container_name: ccmp-freeswitch
+    network_mode: host   # Required for RTP media
+    environment:
+      - FREESWITCH_ESL_PASSWORD=${FREESWITCH_ESL_PASSWORD}
+    volumes:
+      - ./config/freeswitch/conf:/etc/freeswitch
+      - freeswitch_recordings:/var/lib/freeswitch/recordings
+    restart: unless-stopped
+
+  # ── Prometheus (Metrics Scraping) ────────────────────────────────────────
+  prometheus:
+    image: prom/prometheus:v2.51.0
+    container_name: ccmp-prometheus
+    restart: unless-stopped
+    volumes:
+      - ./config/prometheus:/etc/prometheus
+      - prometheus_data:/prometheus
+    ports:
+      - "9090:9090"
+    networks:
+      - ccmp-network
+
+  # ── Grafana (Dashboards) ─────────────────────────────────────────────────
+  grafana:
+    image: grafana/grafana:10.4.0
+    container_name: ccmp-grafana
+    restart: unless-stopped
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+    volumes:
+      - ./config/grafana/provisioning:/etc/grafana/provisioning
+      - ./config/grafana/dashboards:/var/lib/grafana/dashboards
+      - grafana_data:/var/lib/grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
+      - loki
+    networks:
+      - ccmp-network
+
+  # ── Loki (Log Aggregation) ───────────────────────────────────────────────
+  loki:
+    image: grafana/loki:2.9.4
+    container_name: ccmp-loki
+    restart: unless-stopped
+    ports:
+      - "3100:3100"
+    command: -config.file=/etc/loki/local-config.yaml
+    networks:
+      - ccmp-network
+
+  # ── Promtail (Log Collection) ────────────────────────────────────────────
+  promtail:
+    image: grafana/promtail:2.9.4
+    container_name: ccmp-promtail
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - ./config/promtail/promtail-config.yml:/etc/promtail/config.yml
+    command: -config.file=/etc/promtail/config.yml
+    networks:
+      - ccmp-network
+
+# ── Named Volumes ─────────────────────────────────────────────────────────────
+volumes:
+  postgres_data:
+  redis_data:
+  minio_data:
+  meilisearch_data:
+  freeswitch_recordings:
+  prometheus_data:
+  grafana_data:
+
+# ── Networks ──────────────────────────────────────────────────────────────────
+networks:
+  ccmp-network:
+    driver: bridge

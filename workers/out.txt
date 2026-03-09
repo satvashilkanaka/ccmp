@@ -1,0 +1,825 @@
+🚀 Background Workers Starting...
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+✅ Recording Ingest Worker Active
+✅ SLA Worker Active
+✅ CSAT Worker Active
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+IMPORTANT! Eviction policy is allkeys-lru. It should be "noeviction"
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+ReplyError: NOAUTH Authentication required.
+    at parseError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\redis-parser@3.0.0\node_modules\redis-parser\lib\parser.js:302:14) {
+  command: { name: 'info', args: [] }
+}
+node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+SocketClosedUnexpectedlyError: Socket closed unexpectedly
+    at Socket.<anonymous> (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\@redis+client@1.6.1\node_modules\@redis\client\dist\lib\client\socket.js:194:118)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:346:12)
+Emitted 'error' event on Commander instance at:
+    at RedisSocket.<anonymous> (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\@redis+client@1.6.1\node_modules\@redis\client\dist\lib\client\index.js:422:14)
+    at RedisSocket.emit (node:events:519:28)
+    at RedisSocket._RedisSocket_onSocketError (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\@redis+client@1.6.1\node_modules\@redis\client\dist\lib\client\socket.js:218:10)
+    at Socket.<anonymous> (C:\z\wp\projects\contact_support\ccmp\node_modules\.pnpm\@redis+client@1.6.1\node_modules\@redis\client\dist\lib\client\socket.js:194:107)
+    at Object.onceWrapper (node:events:634:26)
+    at Socket.emit (node:events:519:28)
+    at TCP.<anonymous> (node:net:346:12)
+
+Node.js v22.22.1

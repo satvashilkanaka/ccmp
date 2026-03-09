@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "paths": {
+      "@ccmp/shared/*": ["../../packages/shared/src/*"],
+      "@ccmp/database/*": ["../../packages/database/src/*"],
+      "@ccmp/config/*": ["../../packages/config/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "src/__tests__"]
+}

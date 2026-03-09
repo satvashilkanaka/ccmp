@@ -1,0 +1,34 @@
+name: Security Audit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+        
+      - name: Run pnpm audit
+        run: pnpm audit --audit-level critical
+        
+      - name: Secret Scanning (Grep)
+        run: |
+          # Prevent hardcoded passwords in TS files
+          if grep -rEi "password\s*=\s*['\"][^'\"]+['\"]" apps/api/src --exclude="*.test.ts" --include="*.ts"; then
+            echo "❌ ERROR: Hardcoded secrets found!"
+            exit 1
+          else
+            echo "✅ No hardcoded secrets found in source."
+          fi

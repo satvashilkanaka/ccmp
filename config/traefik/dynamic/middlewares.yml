@@ -1,0 +1,18 @@
+http:
+  middlewares:
+    compress:
+      compress: {}
+
+    ratelimit:
+      rateLimit:
+        average: 200
+        burst: 50
+
+    secureHeaders:
+      headers:
+        stsSeconds: 31536000
+        stsIncludeSubdomains: true
+        forceSTSHeader: true
+        frameDeny: true
+        contentTypeNosniff: true
+        browserXssFilter: true

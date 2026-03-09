@@ -1,0 +1,87 @@
+{
+  "realm": "ccmp",
+  "enabled": true,
+  "sslRequired": "all",
+  "bruteForceProtected": true,
+  "failureFactor": 10,
+  "maxFailureWaitSeconds": 900,
+  "passwordPolicy": "length(12) and upperCase(1) and digits(1) and specialChars(1)",
+  "roles": {
+    "realm": [
+      {
+        "name": "AGENT",
+        "description": "General Support Agent"
+      },
+      {
+        "name": "SENIOR_AGENT",
+        "description": "Senior Support Agent"
+      },
+      {
+        "name": "SUPERVISOR",
+        "description": "Team Supervisor"
+      },
+      {
+        "name": "QA_ANALYST",
+        "description": "Quality Assurance Analyst"
+      },
+      {
+        "name": "OPERATIONS_MANAGER",
+        "description": "Operations Manager"
+      },
+      {
+        "name": "COMPLIANCE_OFFICER",
+        "description": "Compliance Officer"
+      },
+      {
+        "name": "ADMIN",
+        "description": "System Administrator"
+      }
+    ]
+  },
+  "clients": [
+    {
+      "clientId": "ccmp-web",
+      "enabled": true,
+      "publicClient": true,
+      "standardFlowEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "redirectUris": [
+        "http://localhost:3000/*"
+      ],
+      "webOrigins": [
+        "+"
+      ]
+    },
+    {
+      "clientId": "ccmp-api",
+      "enabled": true,
+      "publicClient": false,
+      "serviceAccountsEnabled": true,
+      "directAccessGrantsEnabled": true,
+      "standardFlowEnabled": false
+    }
+  ],
+  "requiredActions": [
+    {
+      "alias": "VERIFY_EMAIL",
+      "name": "Verify Email",
+      "providerId": "VERIFY_EMAIL",
+      "enabled": true,
+      "defaultAction": true
+    },
+    {
+      "alias": "UPDATE_PASSWORD",
+      "name": "Update Password",
+      "providerId": "UPDATE_PASSWORD",
+      "enabled": true,
+      "defaultAction": true
+    },
+    {
+      "alias": "CONFIGURE_TOTP",
+      "name": "Configure Totp",
+      "providerId": "CONFIGURE_TOTP",
+      "enabled": true,
+      "defaultAction": true
+    }
+  ]
+}

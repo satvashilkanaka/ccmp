@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<include>
+  <context name="default">
+    <extension name="ccmp_inbound">
+      <condition field="destination_number" expression="^.*$">
+        <action application="answer"/>
+        <action application="set" data="RECORD_STEREO=true"/>
+        <action application="record_session" data="/var/lib/freeswitch/recordings/${uuid}.wav"/>
+        <!-- Bridge to the Outbound ESL socket hosted by our backend -->
+        <action application="socket" data="127.0.0.1:8084 async full"/>
+      </condition>
+    </extension>
+  </context>
+</include>
